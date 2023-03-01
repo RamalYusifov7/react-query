@@ -12,7 +12,6 @@ function People() {
     // staleTime:0,
     // onSuccess:()=>console.log("success")
   })
-  console.log(peopleData);
   if (isLoading) {
     return <div>Loading...</div>
   }
